@@ -1,0 +1,1348 @@
+/*********** GENERAL  **************/
+
+html {
+    scroll-behavior: smooth;
+}
+
+.dsi-divider-left {
+    display: inline-block;
+    margin-left: 10px;
+    padding-right: 10px;
+    border-left: 3px solid #ddd;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.dsi-divider {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+.dsi-text-left h5 {
+    text-align: left
+}
+
+.slide_height_500 .carousel-item {
+    height: 500px;
+}
+
+a.dsi-shared-news i {
+    color: #fff;
+    height: 15px;
+    width: 17px;
+}
+
+a.dsi-shared-news {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 55px;
+    text-align: center;
+}
+
+.sp_post img,
+.blog_img img {
+    object-fit: cover;
+    width: 350px;
+    height: 198px;
+}
+
+p.dsi-volanta {
+    margin: 0;
+    font-style: italic;
+}
+
+.dsi-banner-header-page {
+    padding: 60px !important;
+}
+
+.dsi_banner_slide_content {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background: rgb(0 0 0 / 20%);
+}
+
+.dsi-banner-item {
+    padding: 5px 25px;
+}
+
+.dsi-banner-item .banner_content2 h2 {
+    font-size: 45px !important;
+}
+
+
+/*
+a.dsi-active-link {
+    font-weight: bold !important;
+}
+a.dsi-exact-active-link {
+    color: #1294d8 !important
+} */
+
+div.dsi-offline {
+    text-align: center;
+    background: #dc3545;
+    padding: 10px;
+    color: #fff;
+}
+
+.dsi-zoom-letter-container {
+    display: block;
+    text-align: right;
+}
+
+.dsi-zoom-letter-container div {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.dsi-zoom-letter-container div:hover {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+figure {
+    clear: both;
+}
+
+figure.media {
+    display: block !important;
+}
+
+figure.image {
+    display: inline-block !important;
+}
+
+figure.image.image-style-align-center {
+    text-align: center;
+}
+
+figure.image.image-style-align-left {
+    text-align: left;
+}
+
+figure.image.image-style-align-right {
+    text-align: right;
+}
+
+figure.image.image_resized.image-style-align-left {
+    float: left;
+    margin-right: 10px;
+}
+
+figure.image.image_resized.image-style-align-right {
+    float: right;
+    margin-left: 10px;
+}
+
+figure.image.image_resized.image-style-align-center {
+    margin: 10px auto;
+    text-align: center;
+    display: block !important;
+}
+
+.dsi-pb-empty {
+    padding-bottom: 0px;
+}
+
+
+/*********** FIN GENERAL  **************/
+
+
+/********** INDEX PAGE ***********/
+
+.dsi-top-header {
+    padding: 10px 0;
+}
+
+.carousel-indicators {
+    bottom: -10px;
+}
+
+.banner_content2 {
+    margin-bottom: 30px;
+}
+
+.overlap_box {
+    margin-top: -50px;
+    position: relative;
+    z-index: 9;
+}
+
+.dsi-info-card-home {
+    z-index: 99;
+}
+
+.dsi-info-card-home .icon_box_style_11 {
+    position: relative;
+}
+
+.dsi-info-card-home .icon_box_style_11,
+.dsi-info-card-home .icon_box_style_11 .icon_box_content {
+    min-height: 90px;
+}
+
+.dsi-info-card-home .icon_box_style_11 .icon_box_content a {
+    position: absolute;
+    bottom: 5px;
+}
+
+.dsi-info-card-home .icon_box_style_11 .icon_box_content p {
+    margin-bottom: 30px;
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dsi-info-card-home .icon_box_style_11:hover::before {
+    bottom: 0;
+}
+
+.dsi-info-card-home .icon_box_style_11::before {
+    /* background-color: #304FFE; */
+    background-color: #0e93d8;
+    bottom: 100%;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 3px;
+}
+
+.dsi-ultima-noticia p {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.dsi-ultima-noticia .dsi-bttn-region {
+    display: inline-block;
+    margin-top: 2px;
+}
+
+.dsi-ultima-noticia.alert {
+    margin-bottom: 0px;
+}
+
+.dsi-ultima-noticia.alert.alert-primary {
+    border-left: none !important;
+}
+
+i.dsi-icon {
+    font-weight: bold;
+}
+
+.dsi-others-services {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 10px 15px !important;
+}
+
+.dsi-others-services .list_style_5 li::before {
+    content: "" !important;
+    width: 12px !important;
+    height: 12px !important;
+}
+
+.dsi-others-services .list_style_5 li {
+    padding: 10px 5px 10px 20px !important;
+}
+
+.dsi-img-info {
+    width: 40px;
+}
+
+
+/********** FIN INDEX PAGE ***********/
+
+
+/******* MENU HEADER ************/
+
+div#navbarSupportedContent.show {
+    border: 1px solid #ddd;
+    background: #fff;
+    border-top: none;
+}
+
+.navbar-toggler {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+ul.navbar-nav div li {
+    margin-right: 25px;
+}
+
+ul.navbar-nav div li div * {
+    margin-right: 0px;
+}
+
+ul.footer_social li,
+ul.rounded_social li {
+    margin-right: 25px;
+}
+
+li.dsi-social-menu-sm {
+    margin-top: 20px;
+}
+
+.social_icons a.sc_email {
+    padding: 3px 5px;
+    display: -webkit-inline-box;
+}
+
+.social_icons a.sc_email i {
+    color: #333;
+    font-size: 20px;
+}
+
+.social_icons li a.sc_email:hover {
+    background-color: #ddd;
+    color: #fff;
+}
+
+.social_icons li a.dsi-icon-sisp:hover {
+    background-color: #ddd;
+    color: #fff;
+}
+
+.search_box .form-control {
+    float: right;
+    height: 35px;
+    -webkit-transition: width .55s ease;
+    -moz-transition: width .55s ease;
+    -ms-transition: width .55s ease;
+    -o-transition: width .55s ease;
+    transition: width .55s ease;
+    width: 30px;
+    border: none;
+    margin-left: 25px;
+}
+
+.search_box:hover .form-control {
+    float: right;
+    height: 35px;
+    -webkit-transition: width .55s ease;
+    -moz-transition: width .55s ease;
+    -ms-transition: width .55s ease;
+    -o-transition: width .55s ease;
+    transition: width .55s ease;
+    width: 400px;
+    border: 1px solid #ced4da;
+    position: absolute;
+    right: 0;
+}
+
+.search_box2 {
+    position: relative;
+}
+
+.search_box2 button {
+    border: 0;
+    padding: 0 10px;
+    background-color: transparent;
+    font-size: 22px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.search_box i {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+
+/******* FIN  MENU HEADER ************/
+
+
+/********* INFO CIUDAD ************/
+
+.tab-style1 #Maps .tab-content {
+    border: none;
+    padding: 0;
+}
+
+#Delegaciones ul li {
+    list-style: none;
+}
+
+.dsi-card-delegaciones {
+    padding: 20px;
+}
+
+.dsi-card-delegaciones ul {
+    padding: 0px 20px;
+}
+
+.dsi-card-delegaciones ul li {
+    line-height: 1.5rem;
+}
+
+
+/********* FIN INFO CIUDAD ************/
+
+
+/********* CONTACTO ************/
+
+.filter_tab5 li {
+    margin: 5px 5px;
+}
+
+.dsi-portfolio-item {
+    /*border: 1px solid #eee;*/
+    background: #F4F4F4;
+    padding: 10px;
+    /*min-height: 360px;*/
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.dsi-portfolio-item h4.dsi-card-title {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/*.portfolio_style1 .dsi-portfolio-item:hover {
+    background-color: rgb(0 0 0 / 10%) !important;
+} */
+
+.portfolio_style1 .dsi-portfolio-item:hover {
+    background-color: rgb(49 80 253) !important;
+    color: #fff;
+}
+
+.portfolio_style1 .dsi-portfolio-item:hover a,
+.portfolio_style1 .dsi-portfolio-item:hover p,
+.portfolio_style1 .dsi-portfolio-item:hover strong,
+.portfolio_style1 .dsi-portfolio-item:hover address,
+.portfolio_style1 .dsi-portfolio-item:hover .dsi-card-title {
+    color: #fff;
+}
+
+.dsi-portfolio-item li ul li strong,
+.dsi-portfolio-item li ul li p {
+    display: inline-block;
+}
+
+
+/* BOOOORRRRAAAARRRRR */
+
+div.dsi-card-actions {
+    display: none;
+}
+
+div.dsi-card-actions #dsi-link1 {
+    text-align: center;
+    border-top: 1px solid #fff;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+div.dsi-card-actions a.dsi-qr-modal {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+
+div#qr_vcard {
+    text-align: center;
+}
+
+.dsi-search-contact {
+    margin-bottom: 30px;
+}
+
+.dsi-contact-responsive ul {
+    margin: 0px;
+}
+
+.dsi-contact-responsive ul li.dsi-item {
+    margin-bottom: 5px;
+}
+
+.dsi-contact-responsive ul li .dsi-contact-item {
+    display: flex;
+    flex-flow: column wrap;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.dsi-contact-responsive ul li .dsi-head-item {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.dsi-contact-responsive ul li .dsi-footer-item {
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+    padding-top: 10px;
+    display: flex;
+    height: 25px;
+}
+
+.dsi-contact-responsive ul li.dsi-item:hover {
+    background: #eee;
+}
+
+.dsi-contact-item {
+    border: 1px solid #eee;
+    min-height: 245px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+}
+
+
+/*.dsi-contact-item:hover {
+    border-color: #80bdff;
+}*/
+
+.dsi-left-content {
+    border-right: 1px solid #eee;
+    margin-right: 10px;
+    text-align: center;
+    position: relative;
+    background: #f8f9fa;
+    padding: 15px 0;
+}
+
+.dsi-body-item {
+    padding: 15px 0;
+}
+
+.dsi-social-network {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+}
+
+.dsi-social-network ul.rounded_social li {
+    margin-right: auto !important;
+}
+
+div.dsi-download-contact-vcf {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.dsi-social-network ul.social_icons li a {
+    font-size: 15px;
+    height: 29px;
+    width: 29px;
+    line-height: 29px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+li.dsi-item {
+    margin-bottom: 20px;
+}
+
+ul#dsi-contact-ul {
+    height: 805px;
+    overflow: auto;
+    padding-top: 20px;
+}
+
+.dsi-contact-item .dsi-title {
+    text-transform: uppercase;
+}
+
+ul.dsi-list-telefono {
+    margin: 0 20px;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+
+ul.dsi-list-telefono li {
+    list-style-type: disc !important;
+    padding: 0;
+}
+
+ul.dsi-list-otro-email,
+ul.dsi-list-email {
+    margin: 0;
+}
+
+
+/********* FIN CONTACTO ************/
+
+
+/******** FOOTER ****************/
+
+ul.list_none.footer_social {
+    text-align: CENTER;
+    padding: 0 10px;
+}
+
+.dsi-telefonos-importante {
+    margin-top: 30px;
+}
+
+.dsi-telefonos-importante .text_white i {
+    border-color: #ffffff;
+    color: #fff;
+}
+
+.dsi-telefonos-importante .icon_box p {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+p.developer-by {
+    font-size: 12px;
+}
+
+p.developer-by a {
+    color: #fff;
+}
+
+.bottom_footer {
+    padding: 10px 0 !important;
+}
+
+
+/******** FIN FOOTER ****************/
+
+
+/********** FARMACIAS DE TURNO *************/
+
+.dsi-icon-farmacia {
+    background: #28a745;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.dsi-icon-farmacia i {
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.schedule_info .dsi-como-llegar,
+.schedule_info div.dsi-download-contact-vcf {
+    padding-top: 14px;
+}
+
+.schedule_info div.dsi-download-contact-vcf a,
+.dsi-como-llegar a {
+    font-size: 14px;
+    margin-bottom: 0px;
+    vertical-align: top;
+}
+
+.bg_blue a:hover span {
+    color: #304FFE;
+}
+
+
+/*******************************************/
+
+
+/**************** SERVICIOS Y TRAMITES **************/
+
+.dsi-action {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.dsi-top6-container .icon_box_style_1 i.dsi-icon-img::after,
+.dsi-top6-container .icon_box_style_1 i.dsi-icon-img {
+    background-color: transparent !important;
+}
+
+.dsi-top6-container .icon_box_style_1 i.dsi-icon-img img {
+    width: 70px;
+}
+
+
+/***************************************************/
+
+
+/**************** TWITTER  **************/
+
+.dsi-twitter-container {
+    height: 400px;
+    overflow: auto;
+    border: 3px solid #16acee;
+}
+
+.dsi-twitter-timeline i.ion-social-twitter {
+    color: #16acee;
+}
+
+
+/**************** FIN TWITTER **************/
+
+
+/*************** PAGINA BUSCAR RESULTADOS ****************/
+
+section.dsi-result-search-list .dsi_heading_s3 {
+    margin-bottom: 20px;
+}
+
+section.dsi-result-search-list .dsi_heading_s3 p {
+    border-bottom: 1px solid #d5d5d5;
+    padding-bottom: 10px;
+}
+
+section.dsi-result-search-list .dsi-no-data-found,
+section.dsi-result-search-list .dsi-container-search-list {
+    padding: 0 15px;
+}
+
+section.dsi-result-search-list .list_none ul li {
+    margin-bottom: 10px;
+}
+
+section.dsi-result-search-list .list_none ul li h5 a {
+    font-weight: 500;
+    color: #1a0dab;
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 3 !important;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+section.dsi-result-search-list .dsi-tipo-busqueda {
+    padding: 0px !important;
+}
+
+section.dsi-result-search-list .search_form form .row {
+    margin: 0 !important;
+}
+
+section.dsi-result-search-list p.dsi-info-desc {
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+section.dsi-result-search-list .dsi-input-container {
+    position: relative;
+    padding: 0;
+}
+
+section.dsi-result-search-list {
+    padding: 50px 0 !important;
+}
+
+section.dsi-result-search-list ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/*************** FIN PAGINA BUSCAR RESULTADOS ****************/
+
+
+/****** busqueda tag  **********/
+
+section.dsi-result-search-list .dsi-tag-title-region h3 {
+    border-bottom: 1px solid #d5d5d5;
+}
+
+section.dsi-result-search-list .heading_s3.dsi-tag-title-region {
+    width: 100%;
+    padding: 0;
+}
+
+section.dsi-result-search-list .heading_s3.dsi-tag-title-region h3 {
+    padding-bottom: 34px;
+    line-height: 42px;
+}
+
+section.dsi-result-search-list p.dsi-tipo-result-item {
+    margin: 5px 0;
+    font-size: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+section.dsi-result-search-list p.dsi-info-secretaria {
+    font-size: 11px;
+    margin: 0;
+    line-height: 14px;
+}
+
+section.dsi-result-search-list .heading_s3.dsi-tag-title-region h3 span {
+    font-weight: 100;
+}
+
+
+/****** fin busqueda tag  **********/
+
+
+/********* NOVEDADES ***************/
+
+ul.dsi-list-post {
+    list-style: none;
+}
+
+.dsi-texto-novedad ul {
+    margin-left: 20px;
+}
+
+
+/*********NOVEDADES HOME*******/
+
+.blog_grid>li {
+    padding: 15px !important;
+}
+
+a.blog_tags_cat.blog_bg_dsi_color {
+    display: inline-block;
+    font-size: 10px !important;
+    line-height: 11px;
+    background: rgb(0 0 0 / 50%);
+}
+
+.blog_postcontent_wrap {
+    min-height: 350px;
+}
+
+.blog_grid li.col-md-4 {
+    height: 400px;
+    width: 100% !important;
+}
+
+.dsi-guias-tramites-relacionados .blog_text h6.blog_title a,
+.dsi-guias-tramites-relacionados .blog_text p,
+.recent_post .post_content h6 a,
+.blog_text h6.blog_title a,
+.blog_text p {
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 3 !important;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dsi-guias-tramites-relacionados .blog_post .blog_text {
+    height: auto !important;
+}
+
+.blog_post .blog_content {
+    position: relative;
+}
+
+.blog_post .blog_text {
+    margin-bottom: 25px;
+    height: 115px;
+}
+
+.blog_post .blog_content a.dsi-link-to-more {
+    position: absolute;
+    bottom: -25px;
+    right: 0;
+}
+
+
+/*
+.blog_text p {
+    -webkit-line-clamp: 4 !important;
+}*/
+
+.dsi-result-page p {
+    -webkit-line-clamp: initial !important;
+}
+
+
+/********* FIN NOVEDADES ***************/
+
+
+/******** DETALLE NOVEDAD *************/
+
+.dsi-detalle-novedad p.dsi-volanta {
+    margin: 0 !important;
+    font-size: 12px !important;
+}
+
+.dsi-detalle-novedad .blog_img {
+    margin-bottom: 30px;
+}
+
+.dsi-descargas-novedades {
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.dsi-descargas-novedades ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 25px;
+    text-align: center;
+}
+
+.dsi-descargas-novedades ul li a i {
+    font-size: 35px;
+}
+
+.dsi-descargas-novedades ul li a p {
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+.dsi-descargas-novedades ul li a p span {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+/**************************************/
+
+
+/*********** LOGOS EMPRESAS HOME *************/
+
+ul.dsi-company-logo {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul.dsi-company-logo li.item {
+    flex-grow: 1;
+    flex-basis: 1px;
+}
+
+ul.dsi-company-logo .item a img {
+    opacity: 0.5;
+    width: 60%;
+}
+
+ul.dsi-company-logo .item:hover a img {
+    opacity: 1;
+}
+
+
+/*********** FIN LOGOS EMPRESAS HOME *************/
+
+
+/************ GUIAS DE TRAMITES ***************/
+
+.single_post p.dsi-sin-especificar {
+    font-size: 14px !important;
+}
+
+.dsi-sidebar-guia-tramites-categ span.categories_name {
+    display: inline-block;
+    white-space: pre-wrap;
+    width: 80%;
+}
+
+.single_post .blog_img {
+    display: inline-block;
+}
+
+.single_post p.dsi-info-secretaria {
+    display: inline-block;
+    margin: 0;
+    width: 95%;
+    vertical-align: middle;
+}
+
+.single_post .dsi-tema-desc {
+    margin: 5px 0px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.single_post .dsi-tema-desc a {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.single_post .dsi-guia-tramite-doc-requerida,
+.single_post .dsi-guia-tramite-otros-datos,
+.single_post .dsi-guia-tramite-normativa,
+.single_post .dsi-guia-tramite-requisitos {
+    margin: 40px 0px;
+}
+
+.single_post .dsi-guia-tramite-doc-requerida .dsi-body,
+.single_post .dsi-guia-tramite-normativa .dsi-body,
+.single_post .dsi-guia-tramite-requisitos .dsi-body {
+    padding: 0 10px;
+}
+
+.single_post .dsi-guia-tramite-normativa .dsi-body ul,
+.single_post .dsi-guia-tramite-requisitos .dsi-body ul,
+.single_post .dsi-guia-tramite-doc-requerida .dsi-body ul {
+    padding: 0 20px;
+}
+
+.single_post .dsi-guia-tramite-normativa .dsi-body ul li,
+.single_post .dsi-guia-tramite-requisitos .dsi-body ul li,
+.single_post .dsi-guia-tramite-doc-requerida .dsi-body ul li {
+    line-height: 1.4rem;
+}
+
+.single_post .dsi-guia-tramite-otros-datos ul li {
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.single_post span.dsi-label {
+    font-weight: bold;
+    display: inline-block;
+}
+
+.single_post .dsi-content-text {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.single_post .dsi-guia-tramite-contacto blockquote ul {
+    padding: 30px 10px;
+}
+
+.single_post .dsi-guia-tramite-contacto blockquote ul li {
+    line-height: 30px;
+}
+
+.single_post .dsi-guia-tramite-contacto ul.dsi-responable-lista {
+    padding: 0px 31px !important;
+}
+
+.dsi-guias-tramites-relacionados .blog_post .blog_img i {
+    font-size: 25px;
+}
+
+.dsi-guias-tramites-x-tema p.dsi-info-secretaria {
+    font-size: 10px;
+    font-style: italic;
+    margin: 3px 0;
+}
+
+.dsi-guia-tramite-otros-datos p.dsi-empty-option {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/************ FIN GUIAS DE TRAMITES ***************/
+
+
+/******************* TOGGLE MODE THEME  ***************/
+
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+#navbarSupportedContent .theme-switch-wrapper {
+    top: 15px;
+}
+
+.theme-switch-wrapper label {
+    margin: 0px;
+}
+
+em {
+    margin-left: 10px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.theme-switch {
+    display: inline-block;
+    height: 20px;
+    position: relative;
+    width: 40px;
+}
+
+.theme-switch input {
+    display: none;
+}
+
+.slider {
+    background-color: #ccc;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 0.4s;
+}
+
+.slider:before {
+    background-color: #fff;
+    bottom: 4px;
+    content: "";
+    height: 12px;
+    left: 4px;
+    position: absolute;
+    transition: 0.4s;
+    width: 12px;
+}
+
+input:checked+.slider {
+    background-color: #66bb6a;
+}
+
+input:checked+.slider:before {
+    transform: translateX(20px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+#demo_content a.dsi-configuracion-icon {
+    background: #000;
+}
+
+
+/******************* FIN TOGGLE MODE THEME  ***************/
+
+
+/******* AREAS DE GOBIERNO **********/
+
+.dsi_blog_container .blog-item {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+div.accordion_style2 {
+    padding-left: 20px;
+}
+
+.dsi_list_style_none ul li:before {
+    content: none !important;
+}
+
+.dsi_list_style_none ul li {
+    list-style-type: disc;
+    padding: initial;
+    margin-left: 20px;
+    line-height: 25px;
+}
+
+.accordion_style2.accordion .card-header a:hover {
+    color: #495057 !important;
+}
+
+
+/******* FIN AREAS DE GOBIERNO **********/
+
+
+/************** FARMACIAS DE TURNO **************/
+
+.dsi-farmacias-container .heading_s5 {
+    margin: 10px auto;
+    width: 90%;
+}
+
+.dsi-farmacias-container .heading_s5 h5 {
+    font-size: 10px;
+}
+
+.dsi-farmacias-container .heading_s5 p {
+    margin: 0;
+}
+
+.dsi-container-iframe {
+    position: relative;
+    width: 90%;
+    height: 400px;
+    margin: 30px auto;
+    /*padding-bottom: 56.25%;
+    border: 1px solid #d5d5d5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);*/
+}
+
+.dsi-farmacias-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+
+/************** FIN FARMACIAS DE TURNO **************/
+
+
+/************** CARRUSEL *****************/
+
+.dsi-list-image-post-detail {
+    width: 80%;
+    margin: 0 auto;
+}
+
+button.owl-prev,
+button.owl-next {
+    background: #ccc !important
+}
+
+button.owl-prev span,
+button.owl-next span {
+    margin: 20px;
+    font-size: 30px;
+    z-index: 999;
+}
+
+
+/************** FIN CARRUSEL *****************/
+
+
+/************** LEGAL y TECNICA ****************/
+
+.dsi-legal-tecnico-edificio {
+    text-align: center;
+}
+
+
+/************** FIN LEGAL y TECNICA ****************/
+
+
+/************ MAPAS Info-Ciudad ****************/
+
+div#mapa2 {
+    text-align: center;
+}
+
+div#mapa2 a img {
+    width: auto;
+    height: 300px;
+}
+
+
+/************ FIN MAPAS Info-Ciudad ****************/
+
+
+/******************** polo productivo*********************/
+
+.dsi-polo-productivo .couter_border {
+    padding: 15px !important;
+    max-width: 45%;
+}
+
+.dsi-polo-productivo .box_counter i {
+    font-size: 35px;
+}
+
+.dsi-polo-productivo .dsi-contacto {
+    flex-direction: row-reverse;
+}
+
+.dsi-polo-productivo .dsi-polo-productivo-logo img {
+    width: 50%;
+}
+
+.dsi-polo-productivo .dsi-polo-productivo-logo {
+    text-align: center;
+}
+
+.dsi-polo-productivo .dsi-form-area-interes,
+.dsi-polo-productivo .dsi-form-motivo-consulta {
+    border: 1px solid #ced4da;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.dsi-polo-productivo .dsi-form-area-interes .form-check {
+    margin-bottom: 5px;
+}
+
+.dsi-polo-productivo .custome-checkbox input[type="checkbox"]+.form-check-label::after {
+    top: 4px;
+}
+
+.dsi-polo-productivo .custome-radio input[type="radio"]+.form-check-label::after {
+    top: 5px;
+}
+
+
+/******************** fin polo productivo*********************/
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (max-width: 991px) {
+    .top-header {
+        display: none !important;
+    }
+    .dsi-top-header {
+        display: none !important;
+    }
+    .dsi-contact-responsive .dsi-body-item {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .dsi-search-menu-sm {
+        display: none;
+    }
+    .dsi-social-menu-sm {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .dsi-left-content {
+        border-right: none;
+        margin-right: 0px;
+        min-height: 130px;
+    }
+    .dsi-body-item {
+        padding: 15px 15px;
+    }
+    .dsi-social-network {
+        position: initial;
+        display: block;
+    }
+    .schedule_info .dsi-como-llegar,
+    .schedule_info div.dsi-download-contact-vcf {
+        padding-top: 0px;
+    }
+    ul.dsi-company-logo .item a img {
+        opacity: 0.5;
+        width: 200px;
+    }
+    .dsi-container-iframe {
+        height: 600px;
+    }
+}

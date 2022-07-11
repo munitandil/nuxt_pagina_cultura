@@ -1,0 +1,176 @@
+body[data-theme="dark"] {
+    background: #202325 none repeat scroll 0 0 !important;
+    color: #fff !important
+}
+
+[data-theme="dark"] .dsi-ultima-noticia a:hover,
+[data-theme="dark"] h1,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6,
+[data-theme="dark"] h2,
+[data-theme="dark"] p,
+[data-theme="dark"] i,
+[data-theme="dark"] a {
+    color: #fff !important;
+}
+
+[data-theme="dark"] .blog_style1,
+[data-theme="dark"] .blog_style2,
+[data-theme="dark"] .bg-white {
+    background-color: #202325 !important;
+}
+
+[data-theme="dark"] .dsi-empresas-logos,
+[data-theme="dark"] .light_gray_bg,
+[data-theme="dark"] .gray_bg {
+    background-color: #ddd !important;
+}
+
+[data-theme="dark"] .outline_input-black input {
+    background-color: #fff !important;
+}
+
+[data-theme="dark"] a.page-link,
+[data-theme="dark"] .dsi-ultima-noticia i,
+[data-theme="dark"] .dsi-ultima-noticia p,
+[data-theme="dark"] .dsi-ultima-noticia a,
+[data-theme="dark"] .gray_bg h6,
+[data-theme="dark"] .gray_bg h1,
+[data-theme="dark"] .gray_bg h4,
+[data-theme="dark"] .gray_bg h3,
+[data-theme="dark"] .gray_bg h2,
+[data-theme="dark"] .gray_bg h5,
+[data-theme="dark"] .gray_bg p,
+[data-theme="dark"] .light_gray_bg,
+[data-theme="dark"] .light_gray_bg p,
+[data-theme="dark"] .light_gray_bg h2 a,
+[data-theme="dark"] .light_gray_bg h2 a i {
+    color: #000 !important;
+}
+
+[data-theme="dark"] .blog_style1 p,
+[data-theme="dark"] .blog_style2 p {
+    color: #fff !important;
+}
+
+
+/************** HEADER *************/
+
+[data-theme="dark"] i.ion-ios-search-strong {
+    color: #202325 !important;
+}
+
+[data-theme="dark"] header {
+    background: #202325;
+    color: #fff !important;
+}
+
+[data-theme="dark"] .header_wrap.nav-fixed:not([class*="bg_"]):not([class*="bg-"]) {
+    background-color: #202325 !important;
+}
+
+[data-theme="dark"] .social_icons li a.sc_email:hover {
+    background-color: #ddd;
+}
+
+[data-theme="dark"] .social_icons li a.sc_email:hover i {
+    color: #202325 !important;
+}
+
+[data-theme="dark"] .dark_skin .logo_dark {
+    display: block;
+}
+
+[data-theme="dark"] .dark_skin .logo_dark {
+    display: block;
+}
+
+[data-theme="dark"] .dark_skin .logo_light,
+[data-theme="dark"] .dark_skin .logo_default {
+    display: none;
+}
+
+[data-theme="dark"] .navbar-toggler span.ion-android-menu {
+    color: #fff !important;
+}
+
+[data-theme="dark"] div#navbarSupportedContent.show {
+    background: #202325 !important;
+}
+
+[data-theme="dark"] .header_wrap.dark_skin #navbarSupportedContent .navbar-nav,
+[data-theme="dark"] .header_wrap.dd_dark_skin #navbarSupportedContent .navbar-nav {
+    background-color: #202325 !important;
+}
+
+[data-theme="dark"] .dark_skin .navbar-nav .dropdown-menu {
+    background-color: #202325 !important;
+    border: 1px solid #202325 !important;
+}
+
+[data-theme="dark"] .dark_skin .navbar-expand-lg .navbar-nav .dropdown-menu li a:hover {
+    background-color: #fff !important;
+    color: #202325 !important;
+}
+
+
+/************** FIN HEADER *************/
+
+
+/********************* BANNER ******************/
+
+[data-theme="dark"] div#carouselExampleControls a i {
+    color: #000 !important;
+}
+
+
+/******************** FIN BANNER ******************/
+
+
+/******************* CARD 3 HOME *****************/
+
+[data-theme="dark"] .dsi-info-card-home div.icon_box_style_11 {
+    background: #fff !important;
+}
+
+[data-theme="dark"] .dsi-info-card-home div.icon_box_style_11 .box_icon i,
+[data-theme="dark"] .dsi-info-card-home div.icon_box_style_11 .icon_box_content h5,
+[data-theme="dark"] .dsi-info-card-home div.icon_box_style_11 .icon_box_content p {
+    color: #000 !important;
+}
+
+
+/******************* FIN CARD 3 HOME *****************/
+
+
+/***************** CONTACTO ***************/
+
+[data-theme="dark"] .dsi-contact-item .dsi-left-content {
+    background: #202325 !important;
+}
+
+[data-theme="dark"] .dsi-contact-item label {
+    color: #fff !important;
+}
+
+
+/***************** FIN CONTACTO ***************/
+
+
+/**************  MODO OSCURO CONFIG *************/
+
+[data-theme="dark"] .color-switch,
+[data-theme="dark"] #demo_content a.dsi-configuracion-icon {
+    background: #fff !important;
+}
+
+[data-theme="dark"] .color-switch em,
+[data-theme="dark"] .color-switch h6,
+[data-theme="dark"] #demo_content a.dsi-configuracion-icon i {
+    color: #000 !important;
+}
+
+
+/************** FIN MODO OSCURO CONFIG  *************/

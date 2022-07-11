@@ -1,0 +1,161 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: initial !important;
+}
+
+a.dsi-link-more {
+    font-size: 12px;
+    color: #888888;
+}
+
+a.dsi-link-more:hover {
+    color: #20c997;
+}
+
+.dsi-green-bg {
+    background: #20c997 !important;
+}
+
+.overlay_bg2::before {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.overlay_bg_70::before {
+    background-color: rgba(0, 0, 0, 0.25) !important;
+}
+
+.footer_logo img {
+    width: 200px;
+}
+
+.top_footer {
+    padding: 30px 0;
+}
+
+
+/*
+.roadmap_box.rd_complete::after,
+.roadmap_box.rd_complete::before {
+    background-color: #212529 !important;
+}
+*/
+
+
+/**********************  header *************************/
+
+.header_info li .hd_info {
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 1.43;
+}
+
+.header_info li .hd_info span {
+    display: block;
+}
+
+.header_info {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: flex-start;
+}
+
+.dsi-direcciones .header_info li .hd_info span a {
+    color: #888888;
+}
+
+.navbar-expand-lg .navbar-nav>li {
+    margin-left: 20px;
+}
+
+
+/********************** fin  header *************************/
+
+.portfolio_item .dsi-title-portfolio-item {
+    position: absolute;
+    bottom: -8px;
+    color: #ffff;
+    width: 100%;
+    padding: 10px;
+    /*background: rgb(0 0 0 / 50%);*/
+    background: rgba(0, 195, 130, 0.80)
+}
+
+.portfolio_item:hover .dsi-title-portfolio-item {
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.dsi-list-event {
+    color: #6c757d;
+    font-size: 13px;
+}
+
+.dsi-list-event ul {
+    list-style-type: none;
+}
+
+.portfolio_item img,
+.portfolio-item img {
+    height: 240px;
+}
+
+@media only screen and (min-width: 992px) {
+    .dsi-options-menu-sm {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #google_translate_element {
+        float: none !important;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+.contact_info_style1 li span {
+    height: initial;
+    width: initial;
+    line-height: 0px;
+    text-align: center;
+    border: none;
+    border-radius: 100%;
+    margin-top: 0;
+    vertical-align: middle;
+}
+
+.dsi-website {
+    margin-top: 25px;
+}
+
+
+/***************** CONTACTO ************/
+
+div.dsi-oficina-info {
+    margin-top: 30px;
+}
+
+.dsi-contacto-redes-sociales .social_icons li a {
+    font-size: 40px !important;
+    height: 70px !important;
+    width: 70px !important;
+    line-height: 75px !important;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/***************** FIN CONTACTO ************/

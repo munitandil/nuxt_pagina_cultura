@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer mounts properly 1`] = `
+<footer class="footer_dark">
+  <div class="top_footer">
+    <div class="container">
+      <div class="row">
+        <div data-animation="fadeInUp" data-animation-delay="0.1s" class="col-lg-4 col-md-12 animation">
+          <div class="footer_logo">
+            <nuxt-link-stub to="/" class="navbar-brand"><img src="~assets/images/construction-logo_white.png" alt="logo" class="logo_light"> <img src="~assets/images/header_logo_mun_96_41.png" alt="logo" class="logo_dark"> <img src="~assets/images/header_logo_mun_96_41.png" alt="logo" class="logo_default"></nuxt-link-stub>
+          </div>
+          <p>Phasellus blandit massa enim. elit id varius nunc. Lorems ipsum dolor sit amet, consectetur industry.</p>
+          <ul class="list_none footer_social">
+            <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+            <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+            <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+            <li><a href="#"><i class="ion-social-youtube-outline"></i></a></li>
+            <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
+          </ul>
+        </div>
+        <div data-animation="fadeInUp" data-animation-delay="0.2s" class="col-lg-4 col-md-6 mt-4 mt-lg-0 animation">
+          <h6 class="widget_title">USEFUL LINKS</h6>
+          <ul class="list_none widget_links_style1">
+            <li><a href="#">Buy Anger Now</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Support center</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div data-animation="fadeInUp" data-animation-delay="0.3s" class="col-lg-4 col-md-6 mt-4 mt-lg-0 animation">
+          <h6 class="widget_title">Subscribe Newsletter</h6>
+          <p>Contrary to popular belief of lorem Ipsm Latin amet ltin from consectetur industry.</p>
+          <div class="newsletter_form">
+            <form>
+              <div class="radius_input"><input type="text" required="required" placeholder="Enter Email Address"></div> <button type="submit" title="Subscribe" name="submit" value="Submit" class="btn btn-default">
+                subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bottom_footer bg-dark">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="copyright m-md-0 text-center text-md-left">© 2018 All Rights Reserved by Anger.</p>
+        </div>
+        <div class="col-md-6">
+          <ul class="list_none footer_link text-center text-md-right">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms &amp; Conditions</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+`;
+
+exports[`Footer renders properly 1`] = `
+<footer class="footer_dark">
+  <div class="top_footer">
+    <div class="container">
+      <div class="row">
+        <div data-animation="fadeInUp" data-animation-delay="0.1s" class="col-lg-4 col-md-12 animation">
+          <div class="footer_logo">
+            <nuxt-link-stub to="/" class="navbar-brand"><img src="~assets/images/construction-logo_white.png" alt="logo" class="logo_light"> <img src="~assets/images/header_logo_mun_96_41.png" alt="logo" class="logo_dark"> <img src="~assets/images/header_logo_mun_96_41.png" alt="logo" class="logo_default"></nuxt-link-stub>
+          </div>
+          <p>Phasellus blandit massa enim. elit id varius nunc. Lorems ipsum dolor sit amet, consectetur industry.</p>
+          <ul class="list_none footer_social">
+            <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+            <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+            <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+            <li><a href="#"><i class="ion-social-youtube-outline"></i></a></li>
+            <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
+          </ul>
+        </div>
+        <div data-animation="fadeInUp" data-animation-delay="0.2s" class="col-lg-4 col-md-6 mt-4 mt-lg-0 animation">
+          <h6 class="widget_title">USEFUL LINKS</h6>
+          <ul class="list_none widget_links_style1">
+            <li><a href="#">Buy Anger Now</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Support center</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div data-animation="fadeInUp" data-animation-delay="0.3s" class="col-lg-4 col-md-6 mt-4 mt-lg-0 animation">
+          <h6 class="widget_title">Subscribe Newsletter</h6>
+          <p>Contrary to popular belief of lorem Ipsm Latin amet ltin from consectetur industry.</p>
+          <div class="newsletter_form">
+            <form>
+              <div class="radius_input"><input type="text" required="required" placeholder="Enter Email Address"></div> <button type="submit" title="Subscribe" name="submit" value="Submit" class="btn btn-default">
+                subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bottom_footer bg-dark">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="copyright m-md-0 text-center text-md-left">© 2018 All Rights Reserved by Anger.</p>
+        </div>
+        <div class="col-md-6">
+          <ul class="list_none footer_link text-center text-md-right">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms &amp; Conditions</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+`;
