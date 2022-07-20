@@ -1,7 +1,7 @@
 <template>
   <!-- START SECTION DESTACADO -->
   <section
-    class="small_pt small_pb gray_bg"
+    class="small_pt small_pb"
     v-if="getPostsStandout.length !== 0"
   >
     <div class="container">
@@ -11,9 +11,9 @@
           data-animation="fadeInUp"
           data-animation-delay="0.1s"
         >
-          <div class="heading_s3 mb-md-3 text-center">
-            <h2>Programas</h2>
-          </div>
+            <div class="heading_s5">
+              <h5>Programas</h5>
+            </div>
         </div>
       </div>
       <div class="row">

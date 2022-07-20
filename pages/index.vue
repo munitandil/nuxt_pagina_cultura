@@ -2,21 +2,23 @@
   <div>
     <Header />
     <div class="dsi-container">
-       <InfoTopHome />  
+      <!-- <InfoTopHome /> -->
       <!-- START SECTION BANNER -->
-     <Banner />  
-      <!-- END SECTION BANNER --> 
-     <InfoStandoutTopHome />  
-     
+      <Banner />
+      <!-- END SECTION BANNER -->
+      <!-- <InfoStandoutTopHome /> -->
+
       <!-- START SECTION NOVEDADES -->
-      <NovedadesHome /> 
+      <NovedadesHome />
       <!-- END SECTION NOVEDADES -->
       <!-- START SECTION NOVEDADES -->
       <!--<ProgramaHome />  -->
       <!-- END SECTION NOVEDADES -->
 
+      <AgendaCulturaHome />
+
       <!-- START SECTION DESTACADO -->
-      <DestacadoHome /> 
+      <DestacadoHome />
       <!-- END SECTION DESTACADO -->
 
       <!-- START SECTION LOGOS -->
@@ -24,14 +26,20 @@
       <!-- END SECTION LOGOS -->
 
       <!-- Home Popup Section -->
-      <DialogPopupHome/> 
+      <!-- <DialogPopupHome /> -->
       <!-- End Screen Load Popup Section -->
-      <MuestraMapa/>
-       <CarouTere />
-        <!-- START SECTION SERVICE -->
-      <Top6Home /> 
+      <!-- <MuestraMapa /> -->
+      <!-- <CarouTere /> -->
+      <!-- START SECTION SERVICE -->
+
+
+
+      <!-- Modificar pero usable -->
+      <Top6Home />
+
+
       <!-- END SECTION SERVICE -->
-    
+
     </div>
   </div>
 </template>
@@ -49,6 +57,7 @@ import DialogPopupHome from "@/components/DialogPopupHome";
 import Header from "@/components/Header";
 import CarouTere from "@/components/CarouTere.vue";
 import MuestraMapa from "@/components/MuestraMapa.vue";
+import AgendaCulturaHome from "@/components/cultura/AgendaCulturaHome.vue";
 
 export default {
   components: {
@@ -57,13 +66,14 @@ export default {
     Top6Home,
     NovedadesHome,
     DestacadoHome,
-   // ProgramaHome,
-   // LogosHome,
+    // ProgramaHome,
+    // LogosHome,
     InfoTopHome,
     InfoStandoutTopHome,
     DialogPopupHome,
     CarouTere,
-     MuestraMapa,
+    MuestraMapa,
+    AgendaCulturaHome
   },
   head: {
     title: "Municipalidad de Tandil - Cultura Inicio",
@@ -81,4 +91,8 @@ export default {
 </script>
 
 <style>
+
+.heading_s5::before {
+  background-color: #B14549 !important;
+}
 </style>

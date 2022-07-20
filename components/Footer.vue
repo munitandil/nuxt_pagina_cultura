@@ -1,16 +1,12 @@
 <template>
   <footer class="footer_dark">
     <div class="top_footer small_pt">
-      <div class="container">
-        <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="row justify-content-between">
           <div class="col-lg-4 col-md-12">
             <div class="footer_logo">
-              <DSILink pCustomLabel=" " pPath="HOME" pTipoLink="I" pTitle="Logo de la municipalidad de tandil"
-                ><img
-                  alt="logoMunicipalidad"
-                  src="@/assets/images/logo_muni_blanco.gif"
-                  style="width: 230px"
-              /></DSILink>
+              <DSILink pCustomLabel=" " pPath="HOME" pTipoLink="I" pTitle="Logo de la municipalidad de tandil"><img
+                  alt="logoMunicipalidad" src="@/assets/images/logo_muni_blanco.gif" style="width: 230px" /></DSILink>
             </div>
             <NetworkSocial pUbicacion="FOOTER" />
           </div>
@@ -27,11 +23,11 @@
             </ul>
           </div> -->
           <div>
-          <p > </p>
+            <p> </p>
           </div>
           <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
             <h6 class="widget_title">Contactanos</h6>
-            
+
             <ul class="contact_info contact_info_light list_none">
               <li>
                 <span class="ti-location-pin"></span>
@@ -39,16 +35,12 @@
               </li>
               <li>
                 <span class="ti-email"></span>
-                <DSILink
-                  pCustomLabel="Teléfonos Útiles"
-                  pPath="CONTACTO"
-                  pTipoLink="I"
-                />
+                <DSILink pCustomLabel="Teléfonos Útiles" pPath="CONTACTO" pTipoLink="I" />
               </li>
             </ul>
           </div>
         </div>
-       <!-- <TelefonosImportantes customClass="dsi-telefonos-importante" /> -->
+        <!-- <TelefonosImportantes customClass="dsi-telefonos-importante" /> -->
       </div>
     </div>
     <div class="bottom_footer bg-dark">
@@ -62,14 +54,11 @@
           </div>
           <div class="col-md-6">
             <p class="developer-by m-md-0 text-center text-md-right">
-             <a href="#" title="Desarrollado por: Dirección de Sistemas Informáticos - Municipalidad de Tandil">
-              Desarrollado por: <img
-                  alt="logoDsi"
-                  src="@/assets/images/logo_dsi_con_fondo.png"
-                  style="width: 100px"
-              />
-              </a> 
-             <!--  <a href="#" title="Desarrollado por: Dirección de Sistemas Informáticos - Municipalidad de Tandil">
+              <a href="#" title="Desarrollado por: Dirección de Sistemas Informáticos - Municipalidad de Tandil">
+                Desarrollado por: <img alt="logoDsi" src="@/assets/images/logo_dsi_con_fondo.png"
+                  style="width: 100px" />
+              </a>
+              <!--  <a href="#" title="Desarrollado por: Dirección de Sistemas Informáticos - Municipalidad de Tandil">
               Desarrollado por: <img
                   alt="logoDsi"
                   src="@/assets/images/logo_dsi_bn.png"

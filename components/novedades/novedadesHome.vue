@@ -17,7 +17,7 @@
               >
                 <div class="row">               
                   <div class="col-md-12">
-                    <ul class="blog_small_post blog_grid list_none">
+                    <ul class="blog_small_post blog_grid list_none col-12">
                       <li
                         class="col-md-4"
                         v-for="item in getPostsHome"
